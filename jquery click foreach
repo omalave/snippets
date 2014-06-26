@@ -1,0 +1,8 @@
+    $(document).on('click', '.elimina' ,function (event) {
+    //Process button click event
+       var id = this.id;
+          $( "#"+id ).click(function() {
+            console.log("test");
+            return false;
+          });
+    });
