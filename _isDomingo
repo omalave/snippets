@@ -1,0 +1,12 @@
+	public function _isDomingo ($datecheck){
+
+		$fechats = strtotime($datecheck);	
+			switch (date('w', $fechats)){ 
+			    case 0: 
+			    return TRUE; 
+			    break; 
+			    default: 
+			    return FALSE; 
+			    break; 
+			}  
+	}
