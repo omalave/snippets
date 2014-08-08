@@ -1,0 +1,17 @@
+<?php 
+
+function receiptNumber()
+{
+    $digits = 16;
+    $randseed =  mt_rand(pow(10, $digits-1), pow(10, $digits)-1);    
+    $timestamp = $unixtime = time();
+
+    $arrseed = str_split($randseed, 4);
+
+    $ticket = $arrseed["0"] ."-". $arrseed["1"] ."-". $arrseed["2"] ."-". $arrseed["3"];
+    echo $ticket;
+}
+
+    receiptNumber();
+    
+?>
