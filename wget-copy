@@ -1,0 +1,3 @@
+
+wget --no-clobber --no-parent --convert-links --random-wait -r -p -E -e robots=off -U mozilla http://site
+
