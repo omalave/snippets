@@ -1,2 +1,2 @@
-oscard@skrdz:~# sudo chmod -R 774 /var/www
-oscard@skrdz:~# sudo chown -R 0:33 /var/www
+sudo chmod -R 774 /var/www
+sudo chown -R 0:33 /var/www
