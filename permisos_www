@@ -1,2 +1,2 @@
-sudo chmod -R 774 /var/www
-sudo chown -R 0:33 /var/www
+sudo chmod -R 775 /var/www
+sudo chown -R user:www-data /var/www
